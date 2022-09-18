@@ -18,11 +18,11 @@ def count_duplicates(any_string):
         result.append((count, previous_element))
     return str(result)
 
-with open("input_task_5.txt", "w") as input_file:
+with open("input_task_4.txt", "w") as input_file:
     user_string = str(input("Введите исходную строку: "))
     user_string.strip()
     input_file.write(user_string)
 
-with open("output_task_5.txt", "w") as output_file:
+with open("output_task_4.txt", "w") as output_file:
     result_string = count_duplicates(user_string)
     output_file.write(result_string)
